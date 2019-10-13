@@ -62,7 +62,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         a = x(" Deface Page Path : ")
+         a = x(" Deface Page Path . name must be index.html : ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
